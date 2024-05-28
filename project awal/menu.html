@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      :root {
+        --primary: #ad9d4c;
+        --bg: #010101;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bg);
+        color: #fff;
+        min-height: 1000px;
+      }
+      /* menu section start */
+      .reza_menu {
+        padding: 3rem;
+      }
+      .reza_menu h2 {
+        text-align: center;
+        font-size: 2.6rem;
+        margin-bottom: 1rem;
+      }
+      .reza_menu h2 span {
+        color: var(--primary);
+      }
+      .reza_menu p {
+        text-align: center;
+        max-width: 30rem;
+        margin: auto;
+        font-weight: 100;
+        line-height: 1.6;
+      }
+      .reza_menu .reza_row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        justify-content: center;
+      }
+      .reza_menucard {
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+      .reza_menu .reza_row .reza_menucard img {
+        border-radius: 50%;
+        width: 80%;
+      }
+      .reza_menu .reza_row .reza_menucard .reza_menucardtitle {
+        margin: 1rem auto 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="reza_menu" class="reza_menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>di bawah ini adalah menu andalan kita. check it out!</p>
+      <div class="reza_row">
+        <div class="reza_menucard">
+          <img
+            src="img/menu/espresso.jpg"
+            alt="Espresso"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Espresso</h3>
+          <p class="reza_menucardprice">IDR 17K</p>
+        </div>
+        <div class="reza_menucard">
+          <img
+            src="img/menu/latte.jpg"
+            alt="Cafe latte"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Cafe Latte</h3>
+          <p class="reza_menucardprice">IDR 20K</p>
+        </div>
+        <div class="reza_menucard">
+          <img
+            src="img/menu/moccachino.jpg"
+            alt="Moccachino"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Moccachino</h3>
+          <p class="reza_menucardprice">IDR 20K</p>
+        </div>
+        <div class="reza_menucard">
+          <img
+            src="img/menu/matcha.jpg"
+            alt="Matcha Latte"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Matcha Latte</h3>
+          <p class="reza_menucardprice">IDR 20K</p>
+        </div>
+        <div class="reza_menucard">
+          <img
+            src="img/menu/americano.jpg"
+            alt="Americano"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Americano</h3>
+          <p class="reza_menucardprice">IDR 19K</p>
+        </div>
+        <div class="reza_menucard">
+          <img
+            src="img/menu/chocolate.jpg"
+            alt="Chocolate Latte"
+            class="reza_menucardimg"
+          />
+          <h3 class="reza_menucardtitle">Chocolate Latte</h3>
+          <p class="reza_menucardprice">IDR 18K</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
